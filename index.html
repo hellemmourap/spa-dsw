@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SPA</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+        <div class="page active" id="Base64">
+            <h1 class="text">Base64</h1>
+                <li class="text"><a href="#" data-target="Base64" class="nav">Base64</a></li>
+                <li class="text"><a href="#" data-target="UpperCase" class="nav">Upper Case</a></li>
+                <li class="text"><a href="#" data-target="CapitalCase" class="nav">Capital Case</a></li>
+                <li class="text"><a href="#" data-target="LowerCase" class="nav">Lower Case</a></li>
+                <li class="text"><a href="#" data-target="ProperCase" class="nav">Proper Case</a></li><br>
+            <input placeholder="Insira uma string..." id="base64" type="text"></input>
+            <button class="button" onclick="base64()">Editar</button>
+        </div>
+
+        <div class="page" id="UpperCase">
+            <h1 class="text">Upper Case</h1>
+                <li class="text"><a href="#" data-target="Base64" class="nav">Base64</a></li>
+                <li class="text"><a href="#" data-target="UpperCase" class="nav">Upper Case</a></li>
+                <li class="text"><a href="#" data-target="CapitalCase" class="nav">Capital Case</a></li>
+                <li class="text"><a href="#" data-target="LowerCase" class="nav">Lower Case</a></li>
+                <li class="text"><a href="#" data-target="ProperCase" class="nav">Proper Case</a></li><br>
+            <input placeholder="Insira uma string..." id="upperCase" type="text"></input>
+            <button class="button" onclick="upperCase()">Editar</button>
+        </div>
+
+        <div class="page" id="CapitalCase">
+            <h1 class="text">Capital Case</h1>
+                <li class="text"><a href="#" data-target="Base64" class="nav">Base64</a></li>
+                <li class="text"><a href="#" data-target="UpperCase" class="nav">Upper Case</a></li>
+                <li class="text"><a href="#" data-target="CapitalCase" class="nav">Capital Case</a></li>
+                <li class="text"><a href="#" data-target="LowerCase" class="nav">Lower Case</a></li>
+                <li class="text"><a href="#" data-target="ProperCase" class="nav">Proper Case</a></li><br>
+            <input placeholder="Insira uma string..." id="capitalCase" type="text"></input>
+            <button class="button" onclick="capitalCase()">Editar</button>
+        </div>
+
+        <div class="page" id="LowerCase">
+            <h1 class="text">Lower Case</h1>
+                <li class="text"><a href="#" data-target="Base64" class="nav">Base64</a></li>
+                <li class="text"><a href="#" data-target="UpperCase" class="nav">Upper Case</a></li>
+                <li class="text"><a href="#" data-target="CapitalCase" class="nav">Capital Case</a></li>
+                <li class="text"><a href="#" data-target="LowerCase" class="nav">Lower Case</a></li>
+                <li class="text"><a href="#" data-target="ProperCase" class="nav">Proper Case</a></li> <br>
+            <input placeholder="Insira uma string..." id="lowerCase" type="text"></input>
+            <button class="button" onclick="lowerCase()">Editar</button>
+        </div>
+
+        <div class="page" id="ProperCase">
+            <h1 class="text">Proper Case</h1>
+                <li class="text"><a href="#" data-target="Base64" class="nav">Base64</a></li>
+                <li class="text"><a href="#" data-target="UpperCase" class="nav">Upper Case</a></li>
+                <li class="text"><a href="#" data-target="CapitalCase" class="nav">Capital Case</a></li>
+                <li class="text"><a href="#" data-target="LowerCase" class="nav">Lower Case</a></li>
+                <li class="text"><a href="#" data-target="ProperCase" class="nav">Proper Case</a></li><br>
+            <input placeholder="Insira uma string..." id="properCase" type="text"></input>
+            <button class="button" onclick="properCase()">Editar</button>
+        </div>
+    <script src="main.js"></script>
+</body>
+</html>
